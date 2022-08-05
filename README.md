@@ -1,9 +1,11 @@
 # DPG
 
+<!--
 [![CI Status](https://img.shields.io/travis/z7z/DPG.svg?style=flat)](https://travis-ci.org/z7z/DPG)
 [![Version](https://img.shields.io/cocoapods/v/DPG.svg?style=flat)](https://cocoapods.org/pods/DPG)
 [![License](https://img.shields.io/cocoapods/l/DPG.svg?style=flat)](https://cocoapods.org/pods/DPG)
 [![Platform](https://img.shields.io/cocoapods/p/DPG.svg?style=flat)](https://cocoapods.org/pods/DPG)
+-->
 
 ## Example
 

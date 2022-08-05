@@ -1,5 +1,5 @@
 PODS:
-  - DPG (0.1.0)
+  - DPG (0.1.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DPG: 09ed73e38e3e504db58adaae2f5d7504e3b6c942
+  DPG: 259d7331d34adaf78de92cfe8e3bfdee1952b8e8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: 653cf133854fb4ebd3b75394f97563bd20830747
