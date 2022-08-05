@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DPG'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of DPG.'
+  s.summary          = 'DPG DPG DPG DPG DPG DPG DPG DPG DPG DPG DPG '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+   This description is used to generate tags and improve search results.
+     * Think: What does it do? Why did you write it? What is the focus?
+     * Try to keep it short, snappy and to the point.
+     * Write the description between the DESC delimiters below.
+     * Finally, don't worry about the indent, CocoaPods strips it!
                        DESC
 
   s.homepage         = 'https://github.com/z7z/DPG'
