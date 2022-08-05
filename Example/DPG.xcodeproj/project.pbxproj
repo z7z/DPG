@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61F228AB27BA49D4158B3689 /* Pods_DPG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPG_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED6FF08437781BFB67DD311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6ED6FF08437781BFB67DD311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		863D1109C66C816CBDF73EB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		863D1109C66C816CBDF73EB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CEAF91F05470D1FD09D0D47 /* Pods_DPG_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPG_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6550053BCA81B264C9EE92 /* Pods-DPG_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPG_Tests.release.xcconfig"; path = "Target Support Files/Pods-DPG_Tests/Pods-DPG_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C01EF5B0A42B27584AF907B0 /* Pods-DPG_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPG_Example.debug.xcconfig"; path = "Target Support Files/Pods-DPG_Example/Pods-DPG_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E3D4D4D3BA1AFA8C07048E1D /* DPG.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DPG.podspec; path = ../DPG.podspec; sourceTree = "<group>"; };
+		E3D4D4D3BA1AFA8C07048E1D /* DPG.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DPG.podspec; path = ../DPG.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1F9FD8E7EB89B55130F66CE4 /* Pods-DPG_Tests.debug.xcconfig */,
 				BC6550053BCA81B264C9EE92 /* Pods-DPG_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = z7z;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 74GYRC6VMA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = C01EF5B0A42B27584AF907B0 /* Pods-DPG_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74GYRC6VMA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPG/DPG-Prefix.pch";
 				INFOPLIST_FILE = "DPG/DPG-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 0D58373364FF5006A9A8D8D3 /* Pods-DPG_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74GYRC6VMA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPG/DPG-Prefix.pch";
 				INFOPLIST_FILE = "DPG/DPG-Info.plist";

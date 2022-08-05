@@ -7,6 +7,7 @@
 //
 
 #import "DPGViewController.h"
+#import <DPG/DPG.h>
 
 @interface DPGViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [DPG sayHi];
 }
 
 - (void)didReceiveMemoryWarning

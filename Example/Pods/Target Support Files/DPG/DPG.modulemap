@@ -1,0 +1,6 @@
+framework module DPG {
+  umbrella header "DPG-umbrella.h"
+
+  export *
+  module * { export * }
+}
